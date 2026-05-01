@@ -2,12 +2,11 @@
 
 This project aims to perform sentiment analysis on financial news using deep learning models. The system is designed to analyze financial news patterns and classify them into different sentiment categories for accurate financial sentiment recognition.
 
-## Dataset
-[Financial News Dataset-Kaggle](https://www.kaggle.com/datasets)
+
 
 ## Features
 - **Financial News Data Processing**: Tailored for processing and analyzing financial news data.
-- **Deep Learning Models**: Utilizes advanced neural network architectures for sentiment classification.
+- **Deep Learning Models**: Utilizes Bidirection LSTM architectures for sentiment classification.
 - **Training on Labeled Data**: Built on a dataset labeled with sentiment categories, enabling the model to learn and predict financial sentiment accurately.
 - **Performance Metrics**: Model performance evaluated using accuracy, precision, recall, and F1-score.
 
@@ -40,6 +39,8 @@ To use the sentiment analysis system:
 python -m streamlit run app.py
 ```
 2. Follow the prompts to input financial news data for sentiment classification.
+## Demo
+<img width="1086" height="541" alt="Screenshot 2026-04-30 203221" src="https://github.com/user-attachments/assets/d4f526fa-795b-494d-afa3-b1e21c179435" />
 
 ## Acknowledgments
 - Thanks to the original authors of machine learning and deep learning models for their significant contributions to sentiment classification tasks.
